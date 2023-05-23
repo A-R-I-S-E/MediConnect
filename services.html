@@ -10,7 +10,7 @@
     <div class="full-page">
         <div class="navbar">
             <div>
-                <a href='index.html'>INFO-MED</a>
+                <a href='index.html'>Medi Connect</a>
             </div>
             <nav>
                 <ul id='MenuItems'>
@@ -24,11 +24,13 @@
         </div>
           
         <div class="sidebar">
-            
-            <img src="images/search.png" class="search-icon">
+            <div class="sidebar--search">
+                <input type="text" class="sidebar--input hidden" placeholder="Search Medicine or Vaccine">
+                <img src="images/search.png" class="search-icon margin-auto">
+            </div>
             <div class="social-links">
                 <a href="https://www.gmail.com"><img src="images/info.png"></a>
-                <a href="https://www.twitter.com"><img src="images/tw.png"></a>
+                <a href="https://www.twitter.com"><img src="images/gmailimg.png"></a>
                 
                 
             </div>
@@ -79,7 +81,11 @@
     
     <script>
         var overlay = document.querySelector('.overlay'); 
-        var loginbtn = document.querySelector('.loginbtn');   
+        var loginbtn = document.querySelector('.loginbtn');  
+
+        var searchBoxInput = document.querySelector('.sidebar--input'); 
+        var searchIcon = document.querySelector('.search-icon')
+
         var x=document.getElementById('login');
 		var y=document.getElementById('register');
 		var z=document.getElementById('btn');
@@ -108,6 +114,12 @@
         loginbtn.addEventListener('click',function(){
             console.log('Hit')
             overlay.classList.toggle('hidden');
+        })
+        searchIcon.addEventListener('click',function(){
+            setTimeout(function(){
+                searchBoxInput.classList.toggle('hidden');
+            searchIcon.classList.toggle('margin-auto');
+            },100);
         })
     </script>
     </body>

@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .overlay{
 	position: absolute;
@@ -17,6 +18,22 @@
 
 .hidden{
 	display: none;
+}
+
+.margin-auto{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sidebar--search{
+	display: flex;
+}
+
+.sidebar--search input{
+	height: 30px;
+	border-radius: 10px;
+    margin: 120px 5px 0 20px;
+	padding: 10px;
 }
 .full-page
 {
@@ -79,8 +96,9 @@ nav ul li a:hover
 a
 {
     text-decoration: none;
-    color: palevioletred;
+    color: rgb(220, 32, 94);
     font-size: 28px;
+	font-weight: bold;
 }
 #login-form
 {
@@ -203,8 +221,13 @@ span
 }
 .search-icon{
     width: 20px;
+	height: 20px;
+	margin-top: 125px;
     display: block;
-    margin: 120px auto 0;
+}
+
+.search-icon:hover{
+	cursor: pointer;
 }
 .social-links{
     width: 20px;
