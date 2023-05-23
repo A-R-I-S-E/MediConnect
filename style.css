@@ -26,7 +26,7 @@
 {
     height: 100%;
 	width: 100%;
-	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/sve.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/newlife.jpg);
 	background-position: center;
 	background-size: cover;
 	position: absolute;
@@ -83,8 +83,9 @@ nav ul li a:hover
 a
 {
     text-decoration: none;
-    color: rgb(123, 27, 27);
+    color: rgb(125, 119, 115);
     font-size: 28px;
+	font-weight: bold;
 }
 #login-form
 {
@@ -199,7 +200,7 @@ span
 }
 .msg-container{
 	width: 600px;
-	height: 320px;
+	height: 400px;
 	position:absolute;
 	left: 24%;
 	top :37%;
@@ -224,8 +225,9 @@ span
 }
  .msg-col p{
 	color: #ddd;
-	font-size: 15px;
+	font-size: 20px;
 	line-height: 25px;
+	
  }
  .msg-col a{
 	display: inline-block;
