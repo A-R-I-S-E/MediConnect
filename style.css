@@ -220,14 +220,14 @@ span
 .msg-col h1{
 	color: #fff;
 	font-size: 70px;
-	font-weight: 90;
+	font-weight: 100;
 	margin: 10px 0;
 }
  .msg-col p{
 	color: #ddd;
 	font-size: 20px;
 	line-height: 25px;
-	
+	font-weight: bold;
  }
  .msg-col a{
 	display: inline-block;

@@ -236,12 +236,12 @@ span
     text-align: center;
 }
 .social-links img{
-    height: 15px;
+    height: 25px;
     margin-bottom: 30px;
 }
 .msg-container{
 	width: 600px;
-	height: 320px;
+	height: 400px;
 	position:absolute;
 	left: 37%;
 	top :37%;
@@ -261,7 +261,7 @@ span
 .msg-col h1{
 	color: #fff;
 	font-size: 50px;
-	font-weight: 90;
+	font-weight: 100;
 	margin: 10px 0;
 	
 }
@@ -269,6 +269,7 @@ span
 	color: #ddd;
 	font-size: 15px;
 	line-height: 25px;
+	font-weight: bold;
  }
  .msg-col a{
 	display: inline-block;
