@@ -1,9 +1,11 @@
 *
 {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0 px;
     box-sizing: border-box;
 }
+
+
 .overlay{
 	position: absolute;
 	top: 0;
@@ -18,11 +20,15 @@
 .hidden{
 	display: none;
 }
+
+
 .full-page
 {
     height: 100%;
 	width: 100%;
-	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/homfd.jpg);
+	background-color: #231f1f;
+	
+	 background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)),url(images/servicespod.jpg);  
 	background-position: center;
 	background-size: cover;
 	position: absolute;
@@ -80,9 +86,55 @@ nav ul li a:hover
 a
 {
     text-decoration: none;
-    color: palevioletred;
+    color: rgb(125, 119, 115);
     font-size: 28px;
+	font-weight: bold;
 }
+.menu-tabs {
+	display: flex;
+	justify-content: center;
+	
+	padding: 10px;
+  }
+  
+  #MenuItems {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  #MenuItems li {
+	display: inline-block;
+	margin-right: 10px;
+  }
+  
+  #MenuItems li a {
+	display: block;
+	padding: 8px 16px;
+	text-decoration: none;
+	color: #c6b2b2;
+	
+	border-radius: 4px 4px 0 0;
+  }
+  
+  #MenuItems li a:hover {
+	background-color: #554747;
+  }
+  
+  .loginbtn {
+	font-size: medium;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	padding: 8px 16px;
+	border: none;
+	background-color: #4CAF50;
+	color: white;
+	border-radius: 4px;
+	cursor: pointer;
+	display: flex;
+	-ms-flex-align: end;
+	margin-right: 100px;
+  }
+  
 #login-form
 {
     display: none;
@@ -195,13 +247,15 @@ span
 	font-size: 15;
 }
 .msg-container{
+	padding: auto;
+	margin-left :10 px ;
 	width: 600px;
-	height: 320px;
+	height: 400px;
 	position:absolute;
 	left: 24%;
 	top :37%;
 	transform: translate(-50%);
-	overflow: hidden;
+	
 }
 
 #slider{
@@ -210,19 +264,23 @@ span
 }
 
 .msg-col{
+    margin: auto;
+	padding:auto;
 	width: 600px;
 	height: 280px;
 }
 .msg-col h1{
 	color: #fff;
 	font-size: 70px;
-	font-weight: 90;
-	margin: 10px 0;
+	font-weight: 100;
+	margin-left: 100px;
 }
  .msg-col p{
 	color: #ddd;
-	font-size: 15px;
+	font-size: 20px;
 	line-height: 25px;
+	font-weight: bold;
+	margin-left:40px;
  }
  .msg-col a{
 	display: inline-block;
@@ -233,4 +291,5 @@ span
 	padding: 10px 35px;
 	border-radius: 30px;
 	margin-top: 25px;
+	margin-left: 20px;
 }
