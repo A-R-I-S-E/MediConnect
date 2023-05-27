@@ -9,23 +9,28 @@
 <body>
     <div class="full-page">
         <div class="navbar">
+            
             <div>
                 <a href='index.html'>Medi Connect</a>
             </div>
             <nav>
-                <ul id='MenuItems'>
-                    <li><a href='index.html'>Home</a></li>
-                    <li><a href='aboutus.html'>About Us</a></li>
-                    <li><a href='services.html'>Services</a></li>
-                    <li><a href='notice.html'>notice</a></li>
-                    <li><button class='loginbtn' onclick="document.getElementById('login-form').style.display='block'" style="width:auto;">Login</button></li>
-                </ul>
+                <div class="menu-tabs">
+                    <ul id="MenuItems">
+                      <li><a href="main.html">Home</a></li>
+                      <li><a href="aboutus.html">About Us</a></li>
+                      <li><a href="services.html">Services</a></li>
+                      <li><a href="notice.html">Notice</a></li>
+                    </ul>
+
+                    <button class="loginbtn" onclick="document.getElementById('login-form').style.display='block'" style="width:auto;">Login</button>
+                   
+                  </div>
             </nav>
         </div>
         <div class="msg-container">  
             <div id="slider">
                 <div class="msg-col">
-                    <h1>ABOUT US</h1>
+                    <h1>Medi Connect</h1>
                     <p>We aim to provide comprehensive information and resources related to 
                         the healthcare system, newly developed vaccines, ongoing human trials in India, 
                         and prevailing medicines for various diseases.It serves as a platform for individuals 
@@ -39,6 +44,7 @@
             </div> 
             
         </div>
+       
         <div id='login-form'class='login-page'>
             <div class="form-box">
                 <div class='button-box'>
@@ -66,7 +72,8 @@
     </div>
     <div class="overlay hidden"></div>
     
-    <script>
+    
+        <script>
         var overlay = document.querySelector('.overlay'); 
         var loginbtn = document.querySelector('.loginbtn');   
         var x=document.getElementById('login');
@@ -101,3 +108,14 @@
     </script>
 </body>
 </html>
+
+
+<h1>ABOUT US</h1>
+                    <p>We aim to provide comprehensive information and resources related to 
+                        the healthcare system, newly developed vaccines, ongoing human trials in India, 
+                        and prevailing medicines for various diseases.It serves as a platform for individuals 
+                        seeking knowledge and componnents to enhance usability. We feature a user-friendly 
+                        interface with essential facilities, seamless data management and retrieval. The basic
+                         model serves as the initial framework for the development of the website, allowing for 
+                         further refinement and improvement based on user feedback and requirments.</p>
+                         
